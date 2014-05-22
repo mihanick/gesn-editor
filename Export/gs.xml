@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document Generator="GrandSmeta" DocumentType="{2B0470FD-477C-4359-9F34-EEBE36B7D340}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Chapters>
+		<Chapter Caption="работка">
+			<Position Caption="работка" Number="2" Quantity="200" Units="">
+				<WorksList>
+				</WorksList>
+				<Resources>
+					<Mch Caption="Экскаватор колёсный одноковшовый ЕК-18" Units="шт" Quantity="1" />
+					<Mch Caption="Бульдозер гусеничный с неповоротным отвалом Д-250" Units="шт" Quantity="1" />
+				</Resources>
+			</Position>
+			<Position Caption="Е2-1-1. Рыхление немерзлого грунта бульдозерами-рыхлителями" Number="2.1" Quantity="200" Units="">
+				<WorksList>
+					<Work Caption="Приведение агрегата в рабочее положение" />
+					<Work Caption="Приведение агрегата в рабочее положение2" />
+				</WorksList>
+				<Resources>
+					<Mch Caption="Кран башенный г/п 2т Potain GTMR 321C" Units="шт" Quantity="1" />
+					<Mch Caption="Кран башенный г/п 3т Potain GTMR 326D" Units="шт" Quantity="1" />
+					<Mch Caption="Кран башенный г/п 4т Potain GTMR 334D" Units="шт" Quantity="1" />
+				</Resources>
+			</Position>
+		</Chapter>
+		<Chapter Caption="работка">
+			<Header Caption="Приведение агрегата в рабочее положение" />
+			<Position Caption="работка" Number="2" Quantity="200" Units="">
+				<WorksList>
+				</WorksList>
+				<Resources>
+					<Mch Caption="Экскаватор колёсный одноковшовый ЕК-18" Units="шт" Quantity="1" />
+					<Mch Caption="Бульдозер гусеничный с неповоротным отвалом Д-250" Units="шт" Quantity="1" />
+				</Resources>
+			</Position>
+			<Position Caption="Е2-1-1. Рыхление немерзлого грунта бульдозерами-рыхлителями" Number="2.1" Quantity="200" Units="">
+				<WorksList>
+				</WorksList>
+				<Resources>
+				</Resources>
+			</Position>
+			<Position Caption="Приведение агрегата в рабочее положение" Number="2.1.1" Quantity="200" Units="">
+				<WorksList>
+				</WorksList>
+				<Resources>
+					<Mch Caption="Кран башенный г/п 2т Potain GTMR 321C" Units="шт" Quantity="1" />
+					<Mch Caption="Кран башенный г/п 3т Potain GTMR 326D" Units="шт" Quantity="1" />
+					<Mch Caption="Кран башенный г/п 4т Potain GTMR 334D" Units="шт" Quantity="1" />
+				</Resources>
+			</Position>
+		</Chapter>
+	</Chapters>
+</Document>

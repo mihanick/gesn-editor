@@ -1,0 +1,130 @@
+/* 
+    Document   : gsn
+    Created on : 14.06.2012, 22:31:26
+    Author     : mihanick
+    Description:
+        Visualize the html to edit GESN xmls onto php server
+*/
+
+/*I like it small*/
+body {
+    font-size: 10px;
+}
+
+div{
+    position: relative;
+}
+div.container{
+    padding-top: 60px;
+    border: none;   
+}
+/*thats just visual color settings for different types of data*/
+/*Moving divs to see the structure of xml
+  no-wrap is to see textareas more like table
+  border-left to see the structure
+*/
+div .job, .Rate, .RateTechnics, .RatePersonal, .RateMaterial{
+    margin-left: 20px;
+    border-left: 1px black solid;
+    white-space: nowrap;
+
+}
+div.job{
+    background-color: lavender;
+}
+div.Rate{
+    background-color: lightcyan;
+}
+div.RateTechnics{
+    background-color: lightgreen;
+}
+div.RatePersonal{
+    background-color: lightskyblue;
+}
+div.RateMaterial{
+    background-color: moccasin;
+}
+/*Span-colors to visualize save filename status*/
+span.span-good{
+    color: lime;
+}
+span.span-error{
+    color: red;
+}
+span.span-warning{
+    color: yellow;
+}
+/*hiding test divs*/
+.test-edit-response, .js-request{
+    display: none;
+}
+/*hiding filename special-div*/
+#filename{
+    
+}
+
+ul , li{
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 12px;
+}
+.files{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+   
+    float: left;
+    width: auto;
+    overflow: hidden;
+    height: 50px;
+    position: absolute;
+    
+    background-color: white;
+    z-index: 2;  
+    
+    -webkit-box-shadow: 0 8px 8px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow:         0 8px 8px rgba(0,0,0,0.5); /* Параметры тени */
+
+    
+}
+.files:hover{
+    height:auto;
+}
+.expandSplit{
+    position: absolute;
+    font-weight: bold;
+    width: 100%;
+    z-index: 3;
+    background-color: white;
+    bottom: 0px;
+    text-align: center;
+    height: 10px;
+}
+
+.FileHeader{
+    text-align: center;
+    font-weight: bold;
+    width:100%;
+}
+.jobForm{
+    margin-top: 30px;
+    
+}
+.pop-up{
+    font-size: 12px;
+    font-family: monospace;
+    position:absolute;
+    left:-20px;
+    width:20px;
+    top:4px;
+    text-align: left;
+    
+}
+.a-copy:hover {
+    background-color: lightskyblue;
+    border: 1px solid black;
+    
+}
+.a-remove:hover{
+    background-color: lightcoral;
+    border: 1px solid black;
+}
